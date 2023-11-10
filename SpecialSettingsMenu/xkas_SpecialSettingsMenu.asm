@@ -102,4 +102,9 @@ org $82EFA6
     INC $099E ; Replaces LDA #$0001 : STA $099E
 warnpc $82EFB2
 
+org $90AD6E
+; Disable Icon Cancel
+    BRA $06
+warnpc $90AD70
+
 cleartable
